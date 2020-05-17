@@ -1,0 +1,12 @@
+$nomention
+$deletecommand
+$onlyAdmin[You need administrator permission to use this command!]
+$onlyIf[$mentionedChannels[1;no]!=;Correct format is ``&announce <#channel> title/description/footer``]
+$useChannel[$mentionedChannels[1;no]]
+$textSplit[$noMentionMessage;/]
+$title[$splitText[1]]
+$description[$splitText[2]]
+$footer[$splitText[3] • snack shack • bot made by ava]
+$footerIcon[$authorAvatar]
+$channelSendMessage[$channelID;Success! Your announcement has been sent.]
+$color[FFFFFF]
