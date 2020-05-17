@@ -1,0 +1,8 @@
+$nomention
+$title[Heads up!]
+$description[$noMentionMessage]
+$footer[$username • coded by スケート一時的なものです。シオカラーズ永遠です。#6629]
+$color[b1e6ff]
+$onlyAdmin[You need administrator permission to use this command!]
+$deletecommand
+$cooldown[5s;You need to wait to use this command!]
